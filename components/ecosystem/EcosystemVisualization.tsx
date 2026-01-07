@@ -100,7 +100,7 @@ export default function EcosystemVisualization() {
               The Integrated Ecosystem
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              See how Factorial IT seamlessly connects with Microsoft's ecosystem,
+              See how Factorial IT seamlessly connects with Microsoft&apos;s ecosystem,
               creating a unified platform for People, Tools, Data, and Business.
             </p>
           </div>

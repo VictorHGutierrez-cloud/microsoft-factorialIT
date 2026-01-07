@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { Download, FileText, Eye } from 'lucide-react'
+import Image from 'next/image'
 import AnimatedSection from '@/components/shared/AnimatedSection'
 import { partnerConfig } from '@/config/partner-config'
 import { cn } from '@/lib/utils'
@@ -49,12 +50,14 @@ export default function OnePagersSection() {
                 className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-all"
               >
                 {/* Thumbnail Placeholder */}
-                <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl h-48 flex items-center justify-center mb-4">
+                <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl h-48 flex items-center justify-center mb-4 relative overflow-hidden">
                   {pager.thumbnail ? (
-                    <img
+                    <Image
                       src={pager.thumbnail}
                       alt={pager.title}
-                      className="w-full h-full object-cover rounded-xl"
+                      fill
+                      className="object-cover rounded-xl"
+                      unoptimized
                     />
                   ) : (
                     <div className="text-6xl">{categoryIcons[pager.category] || '📄'}</div>

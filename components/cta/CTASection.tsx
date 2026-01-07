@@ -40,7 +40,7 @@ export default function CTASection() {
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             See how Factorial IT can transform your Microsoft ecosystem.
-            Let's discuss your specific needs.
+            Let&apos;s discuss your specific needs.
           </p>
         </motion.div>
 
@@ -118,8 +118,8 @@ export default function CTASection() {
             <div>
               <h3 className="text-2xl font-bold mb-6">Get in touch</h3>
               <p className="text-gray-300 mb-8">
-                Whether you're a Microsoft partner looking to offer Factorial IT,
-                or a company wanting to integrate your Microsoft stack, we're here to help.
+                Whether you&apos;re a Microsoft partner looking to offer Factorial IT,
+                or a company wanting to integrate your Microsoft stack, we&apos;re here to help.
               </p>
             </div>
 
